@@ -10,4 +10,6 @@ def foo():
     print(name)
     bar()
 
-foo()
+if __name__ == '__main__':
+    foo()
+    print("local_variables is being executed!")

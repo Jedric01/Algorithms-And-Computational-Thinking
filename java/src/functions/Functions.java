@@ -1,8 +1,12 @@
 package functions;
 
+import oop.Person;
+
 public class Functions {
 
     public static void main(String[] args){
+
+        Person person = new Person("adfadf", 2, 3, 4);
 
         int num1 = -2;
         int num2 = 12;
