@@ -11,19 +11,23 @@ public class Functions {
         int num1 = -2;
         int num2 = 12;
 
-        int x = add(num1, num2);
+        add(num1, num2);
 
-//        System.out.println(x);
-//
-//        System.out.println("num1: " + num1);
-//        System.out.println("num2: " + num2);
-        printMenu();
-        // ... 50 lines of code
-        System.out.println("Doing something else");
-        printMenu();
-        // ... 50 lines of code
-        System.out.println("Doing something else");
-        printMenu();
+//        System.out.println(num1);
+
+        int x = 2;
+
+        System.out.println(++x);
+
+        System.out.println(x);
+
+//        printMenu();
+//        // ... 50 lines of code
+//        System.out.println("Doing something else");
+//        printMenu();
+//        // ... 50 lines of code
+//        System.out.println("Doing something else");
+//        printMenu();
 
     }
 

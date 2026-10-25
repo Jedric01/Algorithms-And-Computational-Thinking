@@ -3,34 +3,24 @@ package oop;
 public class Main {
 
     public static void main(String[] args) {
-        Person p1 = new Person("Alex", 175, 28, 75);
-//        System.out.println("Done constructing person1");
-        Person p2 = new Person("Bob", 165, 23, 75);
 
-        System.out.println(p1);
+        Medium b1 = new Book("HP", "JK");
+        Medium v1 = new Vinyl("vinly1", "artist-a", 30);
 
-        Tesla t1 = new Tesla();
+        Catalog c = new Catalog();
+        c.addMedium(b1);
+        c.addMedium(v1);
+        c.listInfo();
 
-        t1.accelerate();
-
-
-
-//
-//        System.out.println(p1.name + " " +  p1.height);
-//
-//        p1.exercise("12:00");
-//        p2.exercise("14:00");
-//
-//        System.out.println(p1.getAge());
-//
-//        p1.setAge(50);
-//
-//        System.out.println(p1.getAge());
-//
-//        Person p3 = new Person();
-//
-//        System.out.println(p3);
 
 
     }
+
+    public static void doSomething(Medium m){
+        m.printInfo();
+    }
+
+//    public static void doSomething(Vinyl v){
+//        v.printInfo();
+//    }
 }
